@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ayman's Responsive Webpage</title>
+    <link rel="stylesheet" href="style.css">
+  <body>
+    <div class="header">
+      <h1>Ayman's Resposive Webspage</h1>
+      <p>Resize the browser window to see the effect.</p>
+    </div>
+
+    <div class="topnav">
+      <a href="#project1">Project 1</a>
+      <a href="#project2">Project 2</a>
+      <a href="#aboutMe" style="float:right">About Me</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card" id="project1">
+          <h2>Smart Shopping Cart</h2>
+          <h5>An ambitious attempt at create a rendition of the system implemented in Amazon Go stores which are currently only available in USA, Dec 13, 2020</h5>
+          <div class="img" style="background-image: url(images/cricuit_diagram.png)"></div>
+          <p>The Objective: To design and implement an ‘smart’ shopping cart with its own web app</p>
+          <p>ESP32 NodeMCU is the µC that integrates with the EM18 RFID reader to read the tag off items added to the ‘cart’ it then publishes the this information to AWS IoT Core via Wifi.</p>
+        </div>
+        <div class="card" id="project2">
+          <h2>Face Mask Detector</h2>
+          <h5>Design a model that detects whether a person is wearing a Face Mask or Not with the help of Convolutional Neural Network (CNN), Jun 14, 2020</h5>
+          <div class="img" style="background-image: url(images/mask_detected.png)">Image</div>
+          <p>The dataset used for this project consists of 1376 images out of which 690 of these are of faces with mask, and the remaining 686 are of those without mask.</p>
+          <p>The resulting model acquired a testing accuracy of 96.376%.</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card" id="aboutMe">
+          <h2>About Me</h2>
+          <div class="img" style="background-image: url(https://drive.google.com/thumbnail?id=1qB2pUh4UMnStcGf8Tep_axNXg8iJ2RtZ)"></div>
+          <p>I, Ayman Shaikh, am a 3rd year ECE student studying at NITW. Some of hobbies include writing fantasy stories and cooking desserts.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Contact Details:</h2>
+      <p>Phone number: +917715990561</p>
+      <p>Student mail contact: as841879@student.nitw.ac.in</p>
+    </div>
+
+  </body>
+</html>
